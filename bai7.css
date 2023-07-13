@@ -1,0 +1,115 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box; 
+}
+
+.abc {
+    background-color: green;
+    width: 500px;
+    height: 200px;
+    position: relative;
+}
+
+.abc-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+footer {
+    width: 1024px;
+    height: 250px;
+    background-color: #325C6A;
+    padding: 30px;
+}
+
+.left_content {
+    width: 40%;
+    height: 100%;
+    float: left;
+    color: white;
+}
+
+.left_content > h2 {
+    font-weight: 900;
+    font-size: 24px;
+
+}
+
+.left_content > p {
+    margin-top: 15px;
+}
+
+.middle_content {
+    width: 40%;
+    height: 100%;
+    float: left;
+    color: white;
+}
+
+.middle_content > h2 {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.middle_content > ul {
+    margin-top: 15px;
+    transform: translateX(20%);
+}
+
+
+.right_content {
+    width: 20%;
+    height: 100%;
+    float: left;
+    color: white;
+}
+
+.right_content > h2 {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.right_content > div {
+    margin-left: 20px;
+}
+
+.icon-social {
+    margin-top: 15px;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    border-radius: 2px;
+}
+
+.icon-social::before {
+    font-size: 15px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.icon-social--gmail {
+    background-color: #EF493A;
+}
+
+.icon-social--fb {
+    background-color: #3498DA;
+}
+
+.icon-social--linked {
+    background-color: #2D3D54;
+}
+
+.icon-social--twitter {
+    background-color: #3498DA;
+}
